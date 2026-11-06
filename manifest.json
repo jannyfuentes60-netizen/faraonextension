@@ -1,0 +1,19 @@
+
+{
+  "name": "faraon-music-provider",
+  "displayName": "Faraón Music Provider",
+  "version": "1.0.0",
+  "description": "Proveedor de música de DJ Faraón desde Internet Archive.",
+  "author": "DJ Faraón",
+  "type": [
+    "metadata_provider",
+    "download_provider"
+  ],
+  "permissions": {
+    "network": [
+      "archive.org",
+      "*.archive.org"
+    ],
+    "file": true
+  }
+}
